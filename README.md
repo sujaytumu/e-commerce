@@ -67,73 +67,51 @@ Copy code
 ## ⚙️ Installation and Setup
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/yourusername/ecommerce-mern.git
-cd ecommerce-mern
+- git clone https://github.com/yourusername/ecommerce-mern.git
+- cd ecommerce-mern
+  
 2️⃣ Setup Backend
-bash
-Copy code
-cd Backend_Nodejs
-npm install
-Create a .env file inside Backend_Nodejs/ and add:
+- cd Backend_Nodejs
+- npm install
+- Create a .env file inside Backend_Nodejs/ and add:
 
-bash
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_API_KEY=your_cloudinary_key
-CLOUDINARY_API_SECRET=your_cloudinary_secret
-Start the backend server:
 
-bash
-Copy code
-npm run server
+    - PORT=5000
+    - MONGO_URI=your_mongodb_connection_string
+    - JWT_SECRET=your_jwt_secret
+    - CLOUDINARY_API_KEY=your_cloudinary_key
+    - CLOUDINARY_API_SECRET=your_cloudinary_secret
+    - Start the backend server:  npm run dev
+  
 3️⃣ Setup Frontend
-bash
-Copy code
-cd ../Frontend_React
-npm install
-npm run dev
+- cd ../Frontend_React
+- npm install
+- npm run dev
+
+
 💳 Payment Integration
-Integrated Stripe / Razorpay for secure online payments.
-Users can pay directly using debit/credit cards or UPI during checkout.
+- Integrated Stripe / Razorpay for secure online payments.
+- Users can pay directly using debit/credit cards or UPI during checkout.
 
 🔒 Authentication
-Implemented using JWT:
+- Implemented using JWT:
+- Access Token for secure APIs
+- Middleware protection for routes
+- Role-based access (User/Admin)
 
-Access Token for secure APIs
 
-Middleware protection for routes
-
-Role-based access (User/Admin)
-
-📸 Screenshots
-Homepage	Product Page	Cart Page	Admin Dashboard
 
 🧪 API Endpoints (Sample)
-Method	Endpoint	Description
-POST	/api/users/register	Register new user
-POST	/api/users/login	Login user
-GET	/api/products	Fetch all products
-POST	/api/orders	Place new order
-GET	/api/orders/:id	Get order details
+- Method	Endpoint	Description
+- POST	/api/users/register	Register new user
+- POST	/api/users/login	Login user
+- GET	/api/products	Fetch all products
+- POST	/api/orders	Place new order
+- GET	/api/orders/:id	Get order details
 
 🌐 Deployment
 Frontend: Vercel / Netlify
-
-Backend: Render / Railway / AWS EC2
-
+Backend: Render / Railway
 Database: MongoDB Atlas
 
-🧑‍🤝‍🧑 Contributing
-Contributions are welcome!
-
-Fork the repo
-
-Create a new branch (feature/your-feature-name)
-
-Commit your changes
-
-Push and open a Pull Request
-## 🧱 Project Structure
 
