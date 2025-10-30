@@ -34,15 +34,16 @@ An advanced **E-Commerce Platform** built using the **MERN Stack (MongoDB, Expre
 
 ---
 
-## 🧱 Project Structure
+## 📂 Project Structure
+
+```
 E-Commerce/
 ├── client/                 # React frontend
-├── server/                 # Node.js backend 
+├── server/                 # Node.js backend
 ├── assets/                 # Screenshots like login UI
-├── README.md               # Project description file
+├── README.md               # Project description file 
 ├── .gitignore              # Git ignored files config
-
----
+```
 
 ## ⚙️ Installation and Setup
 
