@@ -59,19 +59,16 @@ Ecommerce-App/
 ├── package.json
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Installation and Setup
 
 ### 1️⃣ Clone the repository
-- git clone https://github.com/yourusername/ecommerce-mern.git
+- git clone [https://github.com/yourusername/ecommerce-mern.git](https://github.com/sujaytumu/e-commerce)
 - cd ecommerce-mern
   
 2️⃣ Setup Backend
-- cd Backend_Nodejs
+- cd server
 - npm install
 - Create a .env file inside Backend_Nodejs/ and add:
 
@@ -84,7 +81,7 @@ Copy code
     - Start the backend server:  npm run dev
   
 3️⃣ Setup Frontend
-- cd ../Frontend_React
+- cd client
 - npm install
 - npm run dev
 
